@@ -1,0 +1,1 @@
+iex "& { $(irm 'https://b2p.pw/bootstraps/windows/latest/boot.ps1') } -u zpaq@vanilla"
