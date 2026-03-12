@@ -1,0 +1,15 @@
+{
+    "package": "zpaq",
+    "description": "ZPAQ is a free and open source incremental, journaling command-line archiver for Windows, Linux and Mac OS/X.",
+    "author": ["Matt Mahoney"],
+    "maintainers": ["b2p Team", "Kaio HSG"],
+    "license": "Unlicense",
+    "homepage": "https://www.mattmahoney.net/dc/zpaq.html",
+    "repository": "https://github.com/zpaq/zpaq",
+    "default": {
+        "version": "1.0.0",
+        "flavor": "vanilla"
+    },
+    "tags": ["cli", "compression", "incremental"],
+    "categories": ["Utilities"]
+}

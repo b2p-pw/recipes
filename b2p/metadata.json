@@ -1,0 +1,15 @@
+{
+    "package": "b2p",
+    "description": "",
+    "author": ["b2p Team", "Kaio HSG"],
+    "maintainers": ["b2p Team", "Kaio HSG"],
+    "license": "GPL-3.0",
+    "homepage": "http://b2p.pw",
+    "repository": "https://github.com/b2p/core",
+    "default": {
+        "version": "1.0.0",
+        "flavor": "vanilla"
+    },
+    "tags": ["cli"],
+    "categories": ["Utilities", "Development"]
+}

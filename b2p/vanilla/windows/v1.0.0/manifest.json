@@ -1,0 +1,27 @@
+{
+    "package": "b2p",
+    "version": "1.0.0",
+    "flavor": "vanilla",
+    "environment": {
+        "kernel": "Windows NT"
+    },
+    "runtime": {
+        "shims": [
+            {
+                "name": "b2p",
+                "binary": "bin/b2p"
+            }
+        ],
+        "backup": {
+            "files": [
+                "backupps.json",
+                "config.toml",
+                "data.json"
+            ]
+        }
+    },
+    "scripts": {
+        "installer": "recipe.yaml",
+        "remover": "b2p-remover"
+    }
+}

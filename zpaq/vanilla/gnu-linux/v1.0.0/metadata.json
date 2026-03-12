@@ -1,0 +1,20 @@
+{
+    "package": "zpaq",
+    "version": "1.0.0",
+    "flavor": "vanilla",
+    "environment": {
+        "kernel": "Linux"
+    },
+    "runtime": {
+        "shims": [
+            {
+                "name": "zpaq",
+                "binary": "zpaq.exe"
+            }
+        ]
+    },
+    "scripts": {
+        "installer": "recipe.yaml",
+        "remover": "remove-directory"
+    }
+}
