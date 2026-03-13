@@ -1,1 +1,1 @@
-curl -fsSL "https://b2p.pw/bootstraps/gnu-linux/latest/boot.sh" | sh -s -- -u zpaq
+curl -fsSL "https://raw.githubusercontent.com/b2p-pw/bootstraps/main/gnu-linux/latest/boot.sh" | sh -s -- -u zpaq
