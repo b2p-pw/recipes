@@ -6,6 +6,7 @@
     "license": "Unlicense",
     "homepage": "https://www.mattmahoney.net/dc/zpaq.html",
     "repository": "https://github.com/zpaq/zpaq",
+    "target": "b2p",
     "default": {
         "version": "1.0.0",
         "flavor": "vanilla"

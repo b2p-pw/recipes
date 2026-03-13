@@ -5,7 +5,8 @@
     "maintainers": ["b2p Team", "Kaio HSG"],
     "license": "GPL-3.0",
     "homepage": "http://b2p.pw",
-    "repository": "https://github.com/b2p/core",
+    "repository": "https://github.com/b2p-pw/core",
+    "target": "b2p",
     "default": {
         "version": "1.0.0",
         "flavor": "vanilla"

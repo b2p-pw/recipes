@@ -1,4 +1,4 @@
-`metadata.json`
+#### App `metadata.json`
 
 ``` json
 {
@@ -6,9 +6,10 @@
     "description": "My cool app can do awesome things.",
     "author": ["App author", "App author team"],
     "maintainers": ["My self", "My team"],
-    "license": "Unlicense",
+    "license": "MIT",
     "homepage": "https://my-app-homepage.cool",
     "repository": "https://github.com/app-team/my-app",
+    "target": "b2p",
     "default": {
         "version": "1.0.0",
         "flavor": "vanilla"
@@ -18,7 +19,28 @@
 }
 ```
 
-`manifest.json`
+#### Lib `metadata.json`
+
+``` json
+{
+    "package": "my-lib",
+    "description": "My cool lib can do awesome things.",
+    "author": ["Lib author", "Lib author team"],
+    "maintainers": ["My self", "My team"],
+    "license": "MIT",
+    "homepage": "https://my-lib-homepage.cool",
+    "repository": "https://github.com/lib-team/my-lib",
+    "target": "l2p",
+    "default": {
+        "version": "1.0.0",
+        "flavor": "vanilla"
+    },
+    "tags": ["cli", "lib", "cool"],
+    "categories": ["Utilities", "Development"]
+}
+```
+
+#### App `manifest.json`
 
 ``` json
 {
@@ -57,7 +79,7 @@
 }
 ```
 
-`checksums.sha256`
+#### `checksums.sha256`
 
 ``` sha256
 a1b2c3d4e5f6...  manifest.json
