@@ -1,1 +1,1 @@
-iex "& { $(irm 'https://raw.githubusercontent.com/b2p-pw/bootstraps/refs/heads/main/windows/latest/boot.ps1') } -r b2p"
+iex "& { $(irm 'https://raw.githubusercontent.com/b2p-pw/bootstraps/refs/heads/main/windows/latest/boot.ps1') } r b2p"
