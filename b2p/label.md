@@ -1,4 +1,4 @@
-# Binary-2-Path
+# Binary-2-Path ⚡
 
 > Binary-2-Path, the package manager.
 
