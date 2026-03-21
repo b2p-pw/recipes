@@ -7,11 +7,13 @@
   "target": "b2p",
   "display_name": "My App!",
   "description": "My cool app can do awesome things.",
+  "kernels": ["windows-nt"],
+  "architectures": ["arm64", "i686", "x86_64"],
   "tags": ["cli", "app", "cool"],
   "categories": ["entertainment"],
   "authors": ["App author", "App author team"],
   "maintainers": ["My self", "My team"],
-  "license": "MIT",
+  "licenses": ["GPL-3.0-only"],
   "homepage": "https://my-app-homepage.cool",
   "repository": "https://github.com/app-team/my-app",
   "default": {
@@ -30,11 +32,13 @@
   "target": "l2p",
   "display_name": "My Lib!",
   "description": "My cool lib can do awesome things.",
+  "kernels": ["bsd", "linux", "windows-nt"],
+  "architectures": ["any"],
   "tags": ["cli", "lib", "cool"],
   "categories": ["utilities", "development"],
   "authors": ["Lib author", "Lib author team"],
   "maintainers": ["My self", "My team"],
-  "license": "MIT",
+  "licenses": ["Apache-2.0", "MIT"],
   "homepage": "https://my-lib-homepage.cool",
   "repository": "https://github.com/lib-team/my-lib",
   "default": {
@@ -54,7 +58,7 @@
   "recipe_version": "1.0.0",
   "flavor": "vanilla",
   "environment": {
-    "kernel": "Windows NT",
+    "kernel": "windows-nt",
     "depends": {
       "net@runtime": ">=7.15"
     }
@@ -85,14 +89,7 @@
 }
 ```
 
-#### `checksums.sha256`
-
-``` sha256
-a1b2c3d4e5f6...  manifest.json
-b8d9c0e1f2a3...  recipe.yaml
-```
-
-#### `label.md`
+#### Generic `label.md`
 
 ``` md
 # My App
@@ -114,4 +111,10 @@ Example command to show the app in action:
 ## 📝 About
 
 A more detailed description of the ingredients and what the user can expect after the installation.
+```
+
+#### Generic `recipe.idx`
+
+``` shell
+
 ```
