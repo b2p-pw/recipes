@@ -1,9 +1,0 @@
-{
-  "index_version": 1,
-  "b2p_requirement": ">=1.0.0",
-  "last_updated": "2024-05-20T15:30:00Z",
-  "packages": [
-    "b2p",
-    "zpaq"
-  ]
-}

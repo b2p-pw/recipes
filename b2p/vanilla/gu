@@ -1,1 +1,0 @@
-curl -fsSL "https://raw.githubusercontent.com/b2p-pw/bootstraps/refs/heads/main/gnu-linux/latest/boot.sh" | sh -s -- u b2p@vanilla

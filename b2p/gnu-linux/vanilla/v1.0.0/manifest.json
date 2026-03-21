@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "flavor": "vanilla",
   "environment": {
-    "kernel": "Windows NT"
+    "kernel": "linux"
   },
   "runtime": {
     "shims": [
