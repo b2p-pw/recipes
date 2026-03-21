@@ -1,6 +1,6 @@
-# Binary-2-Path (b2p)
+# Binary-2-Path ⚡
 
-> The master chef for your binaries. Fresh installs, zero hassle.
+> Binary-2-Path, the package manager.
 
 ## ✨ Highlights
 
