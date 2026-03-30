@@ -2,7 +2,8 @@
   "manifest_version": 1,
   "b2p_requirement": ">=1.0.0",
   "package": "b2p",
-  "version": "1.0.0",
+  "target": "b2p",
+  "recipe_version": "1.0.0",
   "flavor": "vanilla",
   "environment": {
     "kernel": "linux"
@@ -23,7 +24,7 @@
     }
   },
   "scripts": {
-    "installer": "recipe.yaml",
+    "upgrader": "remove-and-upgrade",
     "remover": "b2p-remover"
   }
 }

@@ -5,7 +5,7 @@
   "display_name": "ZPAQ",
   "description": "ZPAQ is a free and open source incremental, journaling command-line archiver for Windows, Linux and Mac OS/X.",
   "kernels": ["linux", "windows-nt"],
-  "architectures": ["i686"],
+  "architectures": ["i686", "x86_64"],
   "tags": ["cli", "compression", "incremental", "archiving", "archiver"],
   "categories": ["utilities", "file-management"],
   "aliases": ["paq"],
@@ -15,7 +15,13 @@
   "homepage": "https://www.mattmahoney.net/dc/zpaq.html",
   "repository": "https://github.com/zpaq/zpaq",
   "default": {
-    "version": "1.0.0",
-    "flavor": "vanilla"
+    "gnu-linux": {
+      "flavor": "vanilla",
+      "recipe_version": "1.0.0"
+    },
+    "windows": {
+      "flavor": "vanilla",
+      "recipe_version": "1.0.0"
+    }
   }
 }

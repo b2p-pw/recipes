@@ -15,7 +15,13 @@
   "homepage": "http://b2p.pw",
   "repository": "https://github.com/b2p-pw/core",
   "default": {
-    "version": "1.0.0",
-    "flavor": "vanilla"
+    "gnu-linux": {
+      "flavor": "vanilla",
+      "recipe_version": "1.0.0"
+    },
+    "windows": {
+      "flavor": "vanilla",
+      "recipe_version": "1.0.0"
+    }
   }
 }
